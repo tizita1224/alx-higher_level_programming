@@ -1,2 +1,2 @@
 -- Removes a data from the table
-DELETE FROM second_table WHERE id<=3;
+DELETE FROM second_table WHERE score<=3;
