@@ -6,7 +6,7 @@ number = random.randint(-10000, 10000)
 
 last_D = abs(number) % 10
 
-if number < 0:
+if number <= 0:
     last_D = abs(number) % -10
 
 if last_D > 5:
